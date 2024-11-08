@@ -1,0 +1,85 @@
+/* styles.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 3rem;
+    color: #ffcc00;
+    text-shadow: 2px 2px #000;
+}
+
+#gameBoard {
+    display: grid;
+    grid-template-columns: repeat(7, 70px);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cell {
+    width: 70px;
+    height: 70px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cell:hover {
+    background-color: #bbb;
+}
+
+.cell.player1 {
+    background-color: red;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+}
+
+.cell.player2 {
+    background-color: yellow;
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.7);
+}
+
+.cell.winner {
+    border: 3px solid #00ff00;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+#message {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px #000;
+}
+
+#resetButton {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    background-color: #ffcc00;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#resetButton:hover {
+    background-color: #ffdd33;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+}
