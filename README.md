@@ -5,11 +5,11 @@
 This repository contains a variety of projects developed in C++ and web development technologies (HTML, CSS, JavaScript). Each project folder includes its source code, instructions for setup, and a description of the project’s functionality.
 
 ## Table of Contents
-1. [C++ Projects](#cpp-projects)
-    - [Connect 4](#connect-4-cpp)
+1. [C++ Projects](#c-projects)
+    - [Connect 4](#connect-4-c)
     - [Number Guessing Game](#number-guessing-game)
     - [Rock Paper Scissors](#rock-paper-scissors)
-    - [Tic Tac Toe](#tic-tac-toe-cpp)
+    - [Tic Tac Toe](#tic-tac-toe-c)
 2. [Web Development Projects](#web-development-projects)
     - [Calculator](#calculator)
     - [Connect 4 (HTML/CSS/JS)](#connect-4-html-css-js)
