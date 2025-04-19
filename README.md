@@ -12,7 +12,7 @@ This repository contains a variety of projects developed in C++ and web developm
     - [Tic Tac Toe](#tic-tac-toe-c)
 2. [Web Development Projects](#web-development-projects)
     - [Calculator](#calculator)
-    - [Connect 4 (HTML/CSS/JS)](#connect-4-html-css-js)
+    - [Connect 4 (HTML/CSS/JS)](#connect-4-htmlcssjs)
     - [Netflix Clone](#netflix-clone)
     - [To-Do List App](#to-do-list-app)
 
